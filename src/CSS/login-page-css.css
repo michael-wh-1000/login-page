@@ -1,107 +1,101 @@
-
-.exterior-login-box{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: linear-gradient(45deg, white, rgb(255, 249, 239));
+.exterior-login-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(45deg, white, rgb(255, 249, 239));
 }
 
-
-
-.login-image{
-    width: 65%;
-    height: 100%;
-    background: url('../assets/images/apartment-image.jpg');
-    background-size: cover;
+.login-image {
+  width: 65%;
+  height: 100%;
+  background: url("../assets/images/apartment-image.jpg");
+  background-size: cover;
 }
 
-.create-account{
-    font-size: 20px;
-    width: 35%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-
+.create-account {
+  font-size: 20px;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.create-account .content{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
-
+.create-account .content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
 }
-.create-account label{
-    font-size: 14px;
-    margin-bottom: 2px;
-    font-weight: 450;
-    color: rgba(0, 0, 0, 1);
-}
-
-.account-form{
-    width: 100%;
+.create-account label {
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-weight: 450;
+  color: rgba(0, 0, 0, 1);
 }
 
-.text-input{
-    display: inline-block;
-    font-size: 14px;
-    padding: 10px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1.5px solid rgb(35, 36, 24, 0.8);
-    margin-bottom: 15px;
-    color: black;
+.account-form {
+  width: 100%;
 }
 
-.text-input:focus{
-    outline: none;
-}   
-
-.account-form{
-    display: flex;
-    flex-direction: column;
+.text-input {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1.5px solid rgb(35, 36, 24, 0.8);
+  margin-bottom: 15px;
+  color: black;
 }
 
-.submit-button{
-    font-size: 14px;
-    height: 40px;
-    color: white;
-    background-color: rgb(35, 36, 24, 0.9);
-    margin-bottom: 10px;
-    border-radius: 4px;
+.text-input:focus {
+  outline: none;
 }
 
-.heading{
-    font-size: 2.8rem;
-    font-weight: 500;
-    line-height: 20px;
-    color: rgb(35, 36, 24);
+.account-form {
+  display: flex;
+  flex-direction: column;
 }
 
-.subheading{
-    font-size: 14px;
-    color: rgb(35, 36, 24, 0.6);
+.submit-button {
+  font-size: 14px;
+  height: 40px;
+  color: white;
+  background-color: rgb(35, 36, 24, 0.9);
+  margin-bottom: 10px;
+  border-radius: 4px;
 }
-.login-link{
-    color: rgb(172, 147, 107);
-}
-.google-login{
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 4px;
-    background-color: white;
-    height: 40px;
-    border: 2px solid rgb(35, 36, 24, 0.5);
-    color: rgb(35, 36, 24);
 
+.heading-big-text {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: rgb(35, 36, 24);
 }
-.google-login img{
-    width: 20px;
+
+.subheading {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(35, 36, 24, 0.6);
+}
+.login-link {
+  color: rgb(172, 147, 107);
+}
+.google-login {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: white;
+  height: 40px;
+  border: 2px solid rgb(35, 36, 24, 0.5);
+  color: rgb(35, 36, 24);
+}
+.google-login img {
+  width: 20px;
 }
